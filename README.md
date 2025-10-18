@@ -13,9 +13,9 @@ Designed with **modern UI enhancements**, **animations**, and **mobile-friendly 
 ## 📂 Project Structure
 
 interactive-website/
--├── index.html # Main HTML file
--├── style.css # Stylesheet with responsive design
--├── script.js # JavaScript for carousel, quiz, and API
+├── index.html. 
+├── style.css.
+├── script.js.
 
 
 ---
