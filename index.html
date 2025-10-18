@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Responsive Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>Interactive & Responsive Webpage</header>
+
+  <main>
+    <!-- IMAGE CAROUSEL -->
+    <section class="carousel-section">
+      <h2>Image Carousel</h2>
+      <div class="carousel">
+        <div class="slides">
+          <img src="https://picsum.photos/800/300?random=1" class="active" alt="Image 1">
+          <img src="https://picsum.photos/800/300?random=2" alt="Image 2">
+          <img src="https://picsum.photos/800/300?random=3" alt="Image 3">
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section class="quiz-section">
+      <h2>JavaScript Quiz</h2>
+      <div class="quiz">
+        <p id="question"></p>
+        <div id="options"></div>
+        <p id="feedback"></p>
+        <p id="score"></p>
+      </div>
+    </section>
+
+    <!-- API FETCH -->
+    <section class="api-section">
+      <h2>Random Joke Generator</h2>
+      <button id="getJokeBtn">Get a Joke</button>
+      <div class="joke-box" id="jokeBox">Click the button to see a joke!</div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
